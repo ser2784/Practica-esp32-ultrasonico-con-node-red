@@ -1,5 +1,5 @@
 # Practica ultrasonico con DHT22 Y node-red
-Este repositorio muestra como podemos programar una ESP32 con el sensor DHT11.
+Este repositorio muestra como podemos programar una ESP32 con el sensor ultrasonico.
 
 ## Introducción
 
@@ -16,7 +16,7 @@ Para realizar esta practica necesitas lo siguiente
 - [node-red] (http://localhost:1880/ui/#!/0?socketid=GastYhmOZGDVaQArAAAN)
 - [node-red] (http://localhost:1880/#flow/33551a14c9f5e89f)
 - Tarjeta ESP 32
-- Sensor DHT22
+- Sensor ultrasonico
 
 
 
@@ -188,24 +188,24 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 ```
 2. Ingresamos a la plataforma **node-red** y acemos el diagrama como se muestra en la siguente imagen.
 
-![](https://github.com/ser2784/Practica-esp32-con-node-red/blob/main/Practica%20esp32%20con%20node-red%20diagrama%201.png)
+![](https://github.com/ser2784/Practica-esp32-ultrasonico-con-node-red/blob/main/Practica%20esp32%20con%20ultrasonico%20node-red%20%20codigo.png)
 
 3. Hacer la conexion de **node-red** con la **ESP32** como se muestra en la siguente imagen.
 
-![]()
+![](https://github.com/ser2784/Practica-esp32-ultrasonico-con-node-red/blob/main/Practica%20esp32%20con%20ultrasonico%20node-red%20diagrama.png)
 
 ### Instrucciónes de operación
 
 1. Iniciar simulador.
 2. Visualizar los datos en el monitor serial.
-3. Colocar la temperatura y humedad dando *doble click* al sensor **DHT22** 
+3. Colocar la distancia  dando *doble click* al sensor **sensor ultrasonico** 
 
 ## Resultados
 
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
 
-![](https://github.com/ser2784/Practica-esp32-con-node-red/blob/main/Practica%20esp32%20con%20node-red%20graficos.png)
-![](https://github.com/ser2784/Practica-esp32-con-node-red/blob/main/Practica%20esp32%20con%20node-red%20diagrama.png)
+![](https://github.com/ser2784/Practica-esp32-ultrasonico-con-node-red/blob/main/Practica%20esp32%20ultrasonico%20con%20node-red.png)
+
 
 
 
